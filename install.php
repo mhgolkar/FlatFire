@@ -33,9 +33,9 @@ function constantin($na=null,$in=null){
 	}
 	else return false;
 }
-if(	isset($_POST["INSTALL_FF_addr"]) && $_POST["INSTALL_FF_addr"]!=null ){
+if(	isset($_POST["INSTALL_FF_addr"])){
 	$newdiro = str_replace("\\","/",$_POST["INSTALL_FF_addr"]);
-	if(strrpos($newdiro,"/")!==(strlen($newdiro)-1)) $newdiro .= "/";
+	if(strrpos($newdiro,"/")!==(strlen($newdiro)-1) && strlen($newdiro)>0 ) $newdiro .= "/";
 	constantin("_FFDIR_",$newdiro);
 }
 
