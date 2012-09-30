@@ -40,6 +40,8 @@ if(	isset($_POST["INSTALL_FF_addr"]) ){
 }
 
 require_once("Config.php");
+clearstatcache();
+if( file_exists(_FFDBDIR_."DATABASES_HERE") ) unlink(_FFDBDIR_."DATABASES_HERE");
 if( !file_exists(_FFDBDIR_."Root.rut")	){
 	// PRE-INSTALL: CHECK FOR PERMISION
 	$raper = "";
