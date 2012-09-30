@@ -33,9 +33,9 @@ function constantin($na=null,$in=null){
 	}
 	else return false;
 }
-if(	isset($_POST["INSTALL_FF_addr"]) && $_POST["INSTALL_FF_addr"]!=null ){
+if(	isset($_POST["INSTALL_FF_addr"]) ){
 	$newdiro = str_replace("\\","/",$_POST["INSTALL_FF_addr"]);
-	if(strrpos($newdiro,"/")!==(strlen($newdiro)-1)) $newdiro .= "/";
+	if(strrpos($newdiro,"/")!==(strlen($newdiro)-1) && strlen($newdiro)>0) $newdiro .= "/";
 	constantin("_FFDIR_",$newdiro);
 }
 
@@ -96,7 +96,7 @@ if( !file_exists(_FFDBDIR_."Root.rut")	){
 	<form class=\"Install_Form\" action=\"".$_SERVER["PHP_SELF"]."\" method=\"POST\">
 		<b>FFDB Folder</b><br/>
 		<span class=\"lit\">Adress to FFDB root</span><br/>
-		<input type=\"textarea\" name=\"INSTALL_FF_addr\" value=\"".__dir__."\"/><br/><br/>
+		<input type=\"textarea\" name=\"INSTALL_FF_addr\" /><br/><br/>
 		<fieldset>
 			<legend><b>ROOT</b></legend>
 			<span>Username: </span><br/><input type=\"textarea\" name=\"INSTALL_FF_root\"/><br/>
