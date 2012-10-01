@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -119,10 +119,8 @@ if(strpos("PAD".phpversion(),"5.3")!==3) echo "
 <span>
 Your server PHP version is under 5.3
 <br/>
-If you want to use FFDB on php5 under 5.3 this is what you need:<br/>
-remove \"namespace FFDB;\" and \"FFDB\\\" (without quotes) from all php files, don't lose anyone.
-if you remove namespace, you can call functions without \"FFDB\\\" but you should not use this variables never in your script : \$Root, \$indb.
-for more information about namespace, have a look at <a style=\"color:white\" href=\"http://php.net/manual/en/language.namespaces.rationale.php\">php official website</a>.
+But that's ok, this is namespaceless version<br/>
+Note: Never use this variables: \$root and \$indb
 </span>
 </div>
 ";

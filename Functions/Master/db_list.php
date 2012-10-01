@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -38,7 +38,7 @@ global $root;
 			$lenta = strpos($dblistr,"[+]",$starta)-$starta;
 			array_push($result,array("user"=>$shekar["user"],"dba"=>$shekar["dba"],"pass"=>$shekar["pass"],"type"=>substr($dblistr,$starta,$lenta)));	
 		}
-		return array_map("FFDB\pure_decode",$result);
+		return array_map("pure_decode",$result);
 	}
 	else{
 		trigger_error("You need root access",E_USER_WARNING);

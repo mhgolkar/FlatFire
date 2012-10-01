@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -43,7 +43,7 @@ IMPORTANT:
 
 <b>After installation</b>
 - You need only to include "FFDB/FlatFire.php" in your script...
-- Flat Fire name space is "FFDB" so you should care about this. for example, every time you want to call a function, it's necessary to "use FFDB as Everything-u-want;" or call functions like this: "FFDB\functionX(input)"
+- (If you are using master version) Flat Fire name space is "FFDB" so you should care about this. for example, every time you want to call a function, it's necessary to "use FFDB as Everything-u-want;" or call functions like this: "FFDB\functionX(input)"... but i guess this is namespaceless version and you can call functions without "FFDB\" but note: never use this variables : $root & $indb
 </pre>
 </details>
 

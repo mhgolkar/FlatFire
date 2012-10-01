@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -42,9 +42,9 @@ global $indb;
 			if($freeall){
 			$headins = array_keys($freeall);
 			$valuesa = array_values($freeall);
-			$cvaluesa = array_map("FFDB\xmlpred",$valuesa);
-			$cheadins = array_map("FFDB\xmlpred",$headins);
-			$theadins = array_map("FFDB\xmlprth",$cheadins);
+			$cvaluesa = array_map("xmlpred",$valuesa);
+			$cheadins = array_map("xmlpred",$headins);
+			$theadins = array_map("xmlprth",$cheadins);
 			$ladgaga ="";
 			foreach($cheadins as $hutan){
 				$ladgaga .= "<!ELEMENT ".$hutan." (#PCDATA)>\n";
@@ -60,8 +60,8 @@ global $indb;
 		}
 		elseif(@table_exists($it)){
 			$headins = parse_src($it);
-			$cheadins = array_map("FFDB\xmlpred",$headins);
-			$theadins = array_map("FFDB\xmlprth",$cheadins);
+			$cheadins = array_map("xmlpred",$headins);
+			$theadins = array_map("xmlprth",$cheadins);
 			$valuero = get_row_count($it)+1;
 			$ladgaga ="";
 			foreach($theadins as $hutan){
@@ -92,7 +92,7 @@ global $indb;
 			for($coj=0;$coj<=$valuero-1;$coj++){
 			$xmltor .= "
 	<_ROW_>\n";
-				$newries = array_map("FFDB\xmlpred",get_row($it,$coj));
+				$newries = array_map("xmlpred",get_row($it,$coj));
 				for($talf=0;$talf<count($theadins);$talf++){
 				$xmltor .= "\t\t<".$theadins[$talf].">".$newries[$headins[$talf]]."</".$theadins[$talf].">\n";
 				}

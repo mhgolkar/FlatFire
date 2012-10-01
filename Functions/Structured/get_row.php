@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -36,7 +36,7 @@ global $indb;
 				$pluspos = strpos($tabura,"[+]",$rowpos);
 				$toexplu = substr($tabura,$rowpos+strlen($rowpat),$pluspos-$rowpos-strlen($rowpat));
 				$prima = explode("[|]",$toexplu);
-				$elmir = array_map("FFDB\pure_decode",$prima);
+				$elmir = array_map("pure_decode",$prima);
 				$donjuan = parse_src($tb);
 				return array_combine($donjuan,$elmir);
 			}

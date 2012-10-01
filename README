@@ -12,6 +12,7 @@ ________________________
 
 .:: FLAT FIRE DATABASE ::.
 PHP Flat File Database Engine
+(Namespaceless Version)
 ________________________
 
 # Easy to setup
@@ -78,11 +79,12 @@ ________________________
 	A little storage and...
 	PHP 5.3+ or...
 	--> if you want to use FFDB on php5 under 5.3 this is what you need:
+		--> (This) namespaceless version or...
 	remove "namespace FFDB;" and "FFDB\" (without quotes) from all php files, don't lose anyone.
 	if you remove namespace, you can call functions without "FFDB\"...
 	but you should not use this variables: $Root, $indb
 	for more information about namespace, have a look at php official manual.
-	--> you can also use namespaceless (git) branch.
+
 ________________________
 # License:
 (MIT License)
@@ -93,5 +95,6 @@ Author:
 	http://mhgolkar.com/
 Version: 
 	01.00 [2012]
+	Namespaceless
 ________________________
 For more information please take a look at "Documents" in control panel

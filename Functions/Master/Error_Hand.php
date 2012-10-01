@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -44,5 +44,5 @@ if(!_FF_ERR_short_) $moreis = "  ".$bfle." : ".$lin." :: "; else $moreis =""; //
 		echo "<b style=\"color:purple\">.::. MSQL Error</b> [".mysql_errno()."]  ".mysql_error()."<br/>";
 }
 //seting up error handler
-set_error_handler("FFDB\Erritoria");
+set_error_handler("Erritoria");
 ?>

@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -31,7 +31,7 @@ $volver = $indb["db"];
 			$dbf = _FFDBDIR_.$inp."/".$inp.".src"; clearstatcache();
 			$real = fread(fopen($dbf,"r"),filesize($dbf));
 			$larg = explode("[+]",str_replace("[STRUCTURE]\n","",$real)); array_pop($larg);
-			$Result = array_map("FFDB\FF_table_map_pluser",$larg);
+			$Result = array_map("FF_table_map_pluser",$larg);
 			$indb["db"] = $volver;
 			return $Result;
 		}

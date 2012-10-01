@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -52,7 +52,7 @@ if(@table_exists($tb)===false) {trigger_error("Table dose not exist",E_USER_WARN
 	else return false;
 	// insert in database
 	$angery = array_pad($angery,count($strata),"null");// last calibration
-	$gorila = array_map("FFDB\pure_encode",$angery);
+	$gorila = array_map("pure_encode",$angery);
 	$tondar = implode("[|]",$gorila);
 	$tablert = _FFDBDIR_.$indb["db"]."/".table_exists($tb).".tbl";
 	$foterm = fopen($tablert,"a+");

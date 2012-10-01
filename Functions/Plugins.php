@@ -1,5 +1,5 @@
 <?php
-namespace FFDB;
+
 /*		  _______________
 //		 | 				 |
 //		 |	M.H.GOLKAR	 |
@@ -33,7 +33,7 @@ $plugint = array();
 				$keysun = trim(array_shift($xlarg));
 				$xlarg["id"] = pure_decode($keysun);
 				$xlarg = array_combine(array("act","des","ver","fil","id"),$xlarg);
-				$plugint[pure_decode($keysun)] = array_map("FFDB\pure_decode",$xlarg);
+				$plugint[pure_decode($keysun)] = array_map("pure_decode",$xlarg);
 			}
 		}
 		if($in!==null && array_key_exists($in,$plugint)) return $plugint[$in];
