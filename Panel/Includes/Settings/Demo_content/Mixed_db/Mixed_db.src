@@ -1,0 +1,3 @@
+[STRUCTURE]
+[tbl]Person[+tbl][loc]Mixed_db_2[+loc][=]id[|]lastname[|]name[|]brand[+]
+[tbl]RPS[+tbl][loc]Mixed_db_3[+loc][=]id[|]player[|]team[|]sharp[+]

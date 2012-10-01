@@ -1,0 +1,5 @@
+[Plugins]
+RandomGet[|]deactive[|]returns a random data from database both from tables and free elements[|]01.00[|]RandomGet.php[+]
+CsvXport[|]active[|]Export Connected Database as CVS file[|]01.00[|]CsvXport.php[+]
+XmlXport[|]active[|]Exports a database to xml format[|]01.00[|]XmlXport.php[+]
+SqlXport[|]active[|]Exports a database to sql file[|]01.00[|]SqlXport.php[+]

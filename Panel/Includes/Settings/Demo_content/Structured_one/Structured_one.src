@@ -1,0 +1,3 @@
+[STRUCTURE]
+[tbl]person[+tbl][loc]Structured_one_0[+loc][=]id[|]lastname[|]name[|]birth_year[+]
+[tbl]RPS[+tbl][loc]Structured_one_1[+loc][=]id[|]player[|]team[|]sharp[+]

@@ -1,0 +1,27 @@
+
+------- 2012/09/29 @ 11:25:07 ------- 
+RECIVED POST : [p] ::
+ 77a81025ac3a31baaa0bd6dd3b5773d9782472483
+REFERER : http://localhost/FFDB/api_demo.php | 
+REMOTE_ADDR : 127.0.0.1 | 
+PORT : 4630 
+REQUEST TIME : 2012/09/29 @ 11:25:07  
+REQUEST URI : /FFDB/api.php  
+LOGD FROM : /FFDB/api.php  
+					RECIVED POST : [r] ::
+ get_free("NameList")
+REFERER : http://localhost/FFDB/api_demo.php | 
+REMOTE_ADDR : 127.0.0.1 | 
+PORT : 4630 
+REQUEST TIME : 2012/09/29 @ 11:25:07  
+REQUEST URI : /FFDB/api.php  
+LOGD FROM : /FFDB/api.php  
+					RECIVED COOKIE : [PHPSESSID] ::
+ hckkeb621pi9cqq8m63go2m1i2
+REFERER : http://localhost/FFDB/api_demo.php | 
+REMOTE_ADDR : 127.0.0.1 | 
+PORT : 4630 
+REQUEST TIME : 2012/09/29 @ 11:25:07  
+REQUEST URI : /FFDB/api.php  
+LOGD FROM : /FFDB/api.php  
+					

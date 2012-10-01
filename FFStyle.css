@@ -1,0 +1,88 @@
+/* 		  _______________
+//		 | 				 |
+//		 |	M.H.GOLKAR	 |
+//		 |	 FlatFire	 |
+//		 |_______________| 
+//	::: FLAT FIRE STYLE SHEET :::
+//
+*/
+body{font-family: sans-serif;}
+b{font-weight:bold;}
+pre.doc {
+white-space: pre-wrap;       /* css-3 */
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+input.intix{
+border:solid white;
+font-size:1em;
+font-weight:bold;
+color: orange;
+}
+input.inbot{
+border:none;
+position:absolute;
+background-color:darkred;
+color:white;
+font-size:1em;
+margin-left:160px;
+margin-top:10px;
+}
+input.inbot:hover{
+cursor:pointer;
+font-weight:bold;
+}
+#Login{
+color: white;
+background-color:darkred;
+width: 260px;
+margin-top:10%;
+margin-left:30%;
+margin-bottom:10px;
+border:solid darkred 15px;
+border-radius:15px 150px 5px 150px;
+box-shadow: 10px 10px 5px #888888;
+webkit-box-shadow: 10px 10px 5px #888888;
+ie-box-shadow: 10px 10px 5px #888888;
+}
+#Login form{
+position: relative;
+top:15px;
+left:15px;
+padding-bottom:50px;
+}
+#cpright{
+position: relative;
+padding-top:20px;
+padding-bottom:50px;
+text-align:center;
+}
+.lif{font-size:0.7em;}
+.req{font-size:10px; color:red;}
+.alerta {text-align:center; font-weight:bold; padding-top:2em;}
+.alerti {text-align:center; font-weight:bold; padding-top:2em; color:red}
+#Install_Report{
+max-width:260px;
+background-color:pink;
+padding:5px;
+margin-top:10px;
+}
+.Install_Form{
+background-color:lightgreen;
+font-size:1em;
+max-width:260px;
+padding:20px 5px;
+}.Install_Form input{
+font-size:1.1em;
+color:red;
+}#ins_but{
+font-size:1em;
+color:black;
+}
+.install_alert{
+color:white;
+background-color:red;
+padding:10px;
+}

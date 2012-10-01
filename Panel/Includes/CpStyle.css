@@ -1,0 +1,321 @@
+/* 		  _______________
+//		 | 				 |
+//		 |	M.H.GOLKAR	 |
+//		 |	 FlatFire	 |
+//		 |	01.00[2012]	 |
+//		 |_______________| 
+//::: FF CONTROL PANEL STYLE SHEET :::
+//
+*/
+h1{margin-bottom: 0px;}
+h2{margin-bottom: 0px; padding-bottom:5px;}
+a{text-decoration:none;}
+.top-menu li{
+list-style:none;
+margin:10px;
+float:left;
+}.top-menu li:hover{
+font-weight:bold;
+list-style:none;
+margin:10px;
+float:left;
+}
+.tenplsu{border: none; width:100%;}
+.tensuplsu{
+width:100%;
+min-width:200px;
+border: none;
+float:left;
+}
+.idrow{ background-color:lightgreen;}
+.rawrow{ background-color:aliceblue;}
+.trpink{background-color:pink}
+.treeform {
+width:200px;
+float:left;
+}
+input.dobot{
+float:left;
+background-color:gray;
+color:white;
+height:30px;
+width:65px;
+margin-left:5px;
+margin-bottom:5px;
+cursor:pointer;
+border:none;
+font-size:1em;
+}
+input.dobot:hover{
+background-color:darkred;
+}
+.treeform  fieldset{
+background-color:pink;
+margin-top:3px;
+padding-right:5px;
+border:none;
+clear:left;
+}
+.treeform ul {list-style-type:none; padding-left: 10px; cursor:pointer;}
+.toolbar{
+background-color:lightgreen;
+border:none;
+max-height:25px;
+min-width:500px;
+margin-bottom:7px;
+display:block;
+}
+.rig-menu{
+background-color:lightgreen;
+border:none;
+max-height:25px;
+min-width:500px;
+margin-bottom:7px;
+display:block;
+}
+.FFDB_Tree_DB{
+cursor:pointer;
+}
+.FFDB_Tree_Nod{
+cursor:pointer;
+color: brown;
+}
+.centrino{
+float:left;
+padding:25px;
+}
+#Database_Entities{
+text-indent:1px;
+min-width:500px;
+margin-left:5px;
+float:left;
+}
+#ff_new_db{
+background-color:lightgreen;
+border:solid 10px lightgreen;
+min-width:260px;
+float:left;
+margin-top:5px;
+}
+#ff_new_priv{
+min-width:260px;
+background-color:pink;
+border:solid 10px pink;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+#ff_new_report{
+clear:left;
+color:white;
+background-color:darkred;
+border:solid 10px darkred;
+float:left;
+margin-top:5px;
+}
+input.creatbot{
+font-size:16px;
+}
+input.toolbot{
+background-color:transparent;
+height:30px;
+cursor:pointer;
+border:none;
+font-size:1em;
+}
+input.toolbot:hover{
+border:none;
+color:white;
+background-color:gray;
+}
+.rigga{
+border:none;
+margin-bottom:7px;
+background-color:darkred;
+height:45px;
+}
+input.rigga{
+color:white;
+height:30px;
+width:65px;
+margin:5px;
+margin-left:20px;
+cursor:pointer;
+border:none;
+font-size:1em;
+}
+input.rigga:hover{
+background-color:gray;
+}
+input.rigga_sel{
+background-color:white;
+color:darkred;
+height:40px;
+width:65px;
+margin:5px;
+margin-left:20px;
+cursor:pointer;
+border:solid white 2px;
+border-bottom:none;
+font-size:1em;
+}
+#ff_new_free_Db{
+min-width:260px;
+background-color:lightblue;
+border:solid 10px lightblue;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+#ff_new_table_Db{
+min-width:260px;
+background-color:lightgreen;
+border:solid 10px lightgreen;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+#ff_remove_priv{
+min-width:260px;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+.privplus{
+float:left;
+margin-left: 10px;
+}
+table.privplus{
+border: none; 
+width:100%
+}
+input.privplus{
+font-size:1em;
+float:left;
+clear:left;
+margin-top:7px;
+}
+#ff_tree_free_Db{
+width:260px;
+background-color:lightblue;
+border:solid 10px lightblue;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+#ff_tree_table_Db{
+width:260px;
+background-color:lightgreen;
+border:solid 10px lightgreen;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+.workbotR input{
+float:left;
+color:white;
+background-color:black;
+height:30px;
+margin:5px;
+margin-left:20px;
+cursor:pointer;
+border:none;
+font-size:1em;
+}.workbotR input:hover{
+color:red;
+}
+.workbotO input{
+float:left;
+color:white;
+background-color:black;
+height:30px;
+margin:5px;
+margin-left:20px;
+cursor:pointer;
+border:none;
+font-size:1em;
+}.workbotO input:hover{
+color:orange;
+}
+#Database_EditBox{
+text-indent:1px;
+max-width:400px;
+margin-left:5px;
+float:left;
+}
+#ff_tree_report{
+float:left;
+color:white;
+background-color:darkred;
+border:solid 10px darkred;
+margin-top:5px;
+}#ff_tree_report a{
+color:white;
+text-decoration:none;
+}
+#ff_Destroy_Db{
+min-width:260px;
+background-color:pink;
+border:solid 10px pink;
+float:left;
+margin-top:5px;
+padding-bottom:7px;
+}
+.logbox{
+float:left;
+clear:left;
+}.logbox textarea{
+padding-top:2em;
+padding-left:2em;
+}
+.ff_pair_new{
+background-color:lightblue;
+padding:10px;
+}.ff_pair_new input{
+font-size:1em;
+}.ff_pair_new select{
+font-size:1em;
+}
+#ff_install_plus{
+width:250px;
+background-color:lightgreen;
+padding:10px;
+float:left;
+margin:5px;
+}
+#X_P_Job_cvs{
+width:230px;
+background-color:lightblue;
+padding:10px;
+padding-bottom:20px;
+float:left;
+margin:5px;
+}
+#X_P_Job_sql{
+width:230px;
+background-color:pink;
+padding:10px;
+padding-bottom:20px;
+float:left;
+margin:5px;
+}
+#X_P_Job_xml{
+width:230px;
+background-color:lightgreen;
+padding:10px;
+padding-bottom:20px;
+float:left;
+margin:5px;
+}
+#ff_Rootary{
+background-color:darkred;
+color:white;
+padding:15px;
+width:200px;
+}#ff_Rootary h1{
+margin-top:5px;
+}
+.configasus fieldset{
+margin-top:5px;
+border:dashed 1px;
+}
