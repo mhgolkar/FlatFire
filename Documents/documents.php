@@ -32,18 +32,18 @@
 <b>Installation</b>
 	1. Upload files to your host and address to FFDB root (index.php).
 	It redirects you to installation:
-	2. (Install FF) Set a root username and password.
+	2. (Install FF) Set a root username and password. Script needs FF root address too.
 	FF is ready to use...
 	Include "FlatFire.php" to your script, everywhere you need FF functionality.
 
 IMPORTANT:
 - Script should have execute, read and write permission in "Database Directory" and normal mode for other files. Please care more about modes...
-- For security reasons change root username and password right from setting menu in control panel at first login. You can also find configurations there. FF has also more configurations like "Database Directory" (in "FFDB/Config.php") but you need not change these settings in regular situations.
+- You can find configurations in control panel. FF has also more configurations like "Database Directory" (in "FFDB/Config.php") but you need not change these settings in regular situations.
 - Note that FF has demo content and demo paired clients, for more secure experience, burn after reading!
 
 <b>After installation</b>
 - You need only to include "FFDB/FlatFire.php" in your script...
-- (If you are using master version) Flat Fire name space is "FFDB" so you should care about this. for example, every time you want to call a function, it's necessary to "use FFDB as Everything-u-want;" or call functions like this: "FFDB\functionX(input)"... but i guess this is namespaceless version and you can call functions without "FFDB\" but note: never use this variables : $root & $indb
+- (If you are using master version) Flat Fire name space is "FFDB" so you should care about this. for example, every time you want to call a function, it's necessary to call functions like this: "FFDB\functionX(input)"... but i guess this is namespaceless version and you can call functions without "FFDB\" but note: never use this variables : $root & $indb
 </pre>
 </details>
 
