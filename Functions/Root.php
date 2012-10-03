@@ -17,7 +17,6 @@ namespace FFDB;
 
 
 $root = null;
-require_once("./Config.php");
 require_once("Master/Setup_db.php");
 require_once("Master/db_type.php");
 require_once("Master/Privileges.php");
