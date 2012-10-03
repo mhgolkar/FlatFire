@@ -24,6 +24,7 @@ if(!isset($_SESSION["ROOT"])){
 			");
 }
 root($_SESSION["ROOT"],$_SESSION["PASS"]);
+$_SESSION["DIR"] = _FFDIR_;
 require_once("FlatFire.php");
 // Control PANEL HERE ?>
 <!DOCTYPE html>
