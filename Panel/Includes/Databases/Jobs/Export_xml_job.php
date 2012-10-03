@@ -8,9 +8,9 @@
 //		 |_______________|
 //::: Control panel Export XML JOB:::
 */
-@require_once("../../../../Config.php"); // Configurations [RIQUIERD]
-@require_once("../../../../FlatFire.php");
 session_start();
+require_once($_SESSION["DIR"]."Config.php");
+require_once($_SESSION["DIR"]."FlatFire.php");
 if(isset($_SESSION["ROOT"]) && isset($_SESSION["PASS"]))
 	root($_SESSION["ROOT"],$_SESSION["PASS"]);
 if($root && @_FF_PLUG_CORE_XMLx_===true){
