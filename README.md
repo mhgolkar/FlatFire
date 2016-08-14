@@ -1,8 +1,7 @@
 # Flat Fire
 PHP Flat File Database Engine  
-M. H. Golkar  
-Version: 01.0.0 [2012]
-________________________
+Version: 01.0.0 [2012]  
+
 
 ### Installation
 1. Upload files to your host and address to FFDB root (index.php).  It redirects you to installation:
@@ -77,8 +76,8 @@ ________________________
 	--> you can also use [namespaceless (git) branch]().
 
 ### License:
-MIT
-
+MIT  
+M. H. Golkar  
 ________________________
-***DEPRECATION WARNING**  
-No new development will happen in this repository.*
+**Deprecation Warning**  
+*No new development will happen in this repository.*
