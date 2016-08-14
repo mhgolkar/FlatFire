@@ -11,7 +11,7 @@ Version: 01.0.0 [2012]
 
 ### Features
 #### Rest Api
-You are able to access databases from other servers using a POST request to `FFDB/api.php`. for more information look at project Documentation or [Git Repo Wiki](wiki).
+You are able to access databases from other servers using a POST request to `FFDB/api.php`. for more information look at project Documentation or [Git Repo Wiki](https://github.com/mhgolkar/FlatFire/wiki).
 
 #### Control Panel
 Flat Fire is pure php and totaly function oriented so you can manipulate your databases, right from your script. In adition to this, FF has also powerful user-interface which prefer controls for Databases and configurations. You can access to this control panel using root username and password and from `index.php`.
@@ -73,7 +73,7 @@ ________________________
 2. PHP 5.3+  
 --> if you want to use FFDB on php5 under 5.3 this is what you need:
 	remove `namespace FFDB;` and `FFDB\` from all php files, don't lose anyone. if you remove namespace, you can call functions without `FFDB\`. but you should not use this variables in your script: `$Root`, `$indb`.  more information about namespace, have a look at php official manual.
-	--> you can also use [namespaceless (git) branch]().
+	--> you can also use [namespaceless (git) branch](https://github.com/mhgolkar/FlatFire/tree/Namespaceless).
 
 ### License:
 MIT  
