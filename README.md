@@ -72,7 +72,7 @@ ________________________
 1. A little storage
 2. PHP 5.3+  
 --> if you want to use FFDB on php5 under 5.3 this is what you need:
-	remove `namespace FFDB;` and `FFDB\` from all php files, don't lose anyone. if you remove namespace, you can call functions without `FFDB\`. but you should not use this variables in your script: `$Root`, `$indb`.  more information about namespace, have a look at php official manual.
+	remove `namespace FFDB;` and `FFDB\` from all php files, don't lose anyone. if you remove namespace, you can call functions without `FFDB\`, but you should not use these variables in your script: `$Root`, `$indb`.  more information about namespace, have a look at php official manual.
 	--> you can also use [namespaceless (git) branch](https://github.com/mhgolkar/FlatFire/tree/Namespaceless).
 
 ### License:
