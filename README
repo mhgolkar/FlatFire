@@ -82,7 +82,7 @@ ________________________
 		--> (This) namespaceless version or...
 	remove "namespace FFDB;" and "FFDB\" (without quotes) from all php files, don't lose anyone.
 	if you remove namespace, you can call functions without "FFDB\"...
-	but you should not use this variables: $Root, $indb
+	but you should not use these variables: $Root, $indb
 	for more information about namespace, have a look at php official manual.
 
 ________________________
